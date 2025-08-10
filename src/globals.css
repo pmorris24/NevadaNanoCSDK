@@ -1,0 +1,30 @@
+:root {
+  --font-family: 'Inter', sans-serif;
+  --header-height: 60px;
+  --sidebar-width: 250px;
+  --sidebar-collapsed-width: 60px;
+  --primary-accent: #1976d2; /* A professional blue */
+
+  /* Light Theme */
+  --bg-color: #f5f5f5;
+  --text-color: #333;
+  --border-color: #e0e0e0;
+  --sidebar-bg: #f5f5f5;
+  --sidebar-text: #333;
+  --sidebar-icon: #555;
+  --sidebar-active-bg: #e0e0e0;
+  --widget-bg: #ffffff;
+  --tile-color: var(--bg-color); /* Match background */
+}
+
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --border-color: #333;
+  --sidebar-bg: #1e1e1e;
+  --sidebar-text: #e0e0e0;
+  --sidebar-icon: #aaa;
+  --sidebar-active-bg: #333;
+  --widget-bg: #1F2838;
+  --tile-color: var(--bg-color); /* Match background */
+}

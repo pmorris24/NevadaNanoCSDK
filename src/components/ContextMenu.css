@@ -1,0 +1,38 @@
+/* src/components/ContextMenu.css */
+.context-menu {
+    position: fixed;
+    z-index: 10000;
+    width: 160px;
+    background-color: var(--background-widget);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.context-menu button {
+    background: none;
+    border: none;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    color: var(--text-primary);
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.context-menu button:hover {
+    background-color: var(--background-main);
+}
+
+.context-menu .remove-button {
+    color: #F44336;
+}
+
+.context-menu .remove-button:hover {
+    background-color: rgba(244, 67, 54, 0.1);
+}
