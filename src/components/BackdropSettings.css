@@ -1,0 +1,69 @@
+.backdrop-settings-overlay {
+  position: fixed;
+  bottom: 80px; /* Position above the dock */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.backdrop-settings-panel {
+  background-color: var(--background-color-main, #ffffff);
+  color: var(--text-color-primary, #111827);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  width: 300px;
+  max-width: 90vw;
+  border: 1px solid var(--border-color, #e5e7eb);
+}
+
+.backdrop-settings-panel h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-color-primary, #111827);
+}
+
+.backdrop-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.backdrop-options label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.backdrop-options input[type="radio"] {
+  accent-color: var(--accent-color, #4f46e5);
+}
+
+.color-picker-container {
+  margin-top: 15px;
+}
+
+.backdrop-settings-panel button {
+  background-color: var(--accent-color, #4f46e5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 15px;
+  transition: background-color 0.2s;
+}
+
+.backdrop-settings-panel button:hover {
+  background-color: var(--accent-color-hover, #4338ca);
+} 
