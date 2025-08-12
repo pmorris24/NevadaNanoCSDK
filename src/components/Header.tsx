@@ -51,8 +51,7 @@ const Header: React.FC<HeaderProps> = ({ isEditable, toggleEditMode, onNewDashbo
                 <div className="logo">
                     <img 
                         src={themeMode === 'dark' ? '/sisense-logo-white.png' : '/sisense-logo-black.png'} 
-                        alt="Sisense Logo" 
-                        height="160" 
+                        alt="Sisense Logo"
                     />
                 </div>
             </div>
