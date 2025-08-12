@@ -1,0 +1,29 @@
+/* src/components/SaveDashboardForm.css */
+.save-dashboard-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.save-dashboard-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.save-dashboard-form input,
+.save-dashboard-form select {
+    padding: 0.75rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background-color: var(--background-main);
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.save-dashboard-form .action-button {
+    align-self: flex-end;
+    margin-top: 1rem;
+}
