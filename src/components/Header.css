@@ -17,8 +17,8 @@
   align-items: center;
 }
 
-.logo svg {
-  fill: var(--text-primary);
+.logo img {
+  height: 40px; /* Controls the logo size */
 }
 
 .header-nav {
